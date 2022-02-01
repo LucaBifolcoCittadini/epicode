@@ -1,0 +1,21 @@
+@media only print {
+    header {
+        background-color: none;
+    }
+
+    body img { 
+        display: none;
+    }
+
+    header img {
+        display:initial; 
+    }
+
+    .gs {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+        }
+
+}
